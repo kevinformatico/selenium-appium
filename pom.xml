@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>falabella-appium</groupId>
+    <artifactId>proyecto_appium_falabella</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <project.java.version>1.8</project.java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+
+        <cucumber.version>4.2.6</cucumber.version>
+        <junit.version>4.12</junit.version>
+        <selenium.version>3.141.59</selenium.version>
+
+        <jetty.http.port>9100</jetty.http.port>
+        <aspectj.version>1.8.9</aspectj.version>
+    </properties>
+
+    <name>chrome-devtools-protocol</name>
+    <description>A web Socket to Chrome devtools protocol for java, and some build functions to use it</description>
+    <url>https://github.com/pgtoopx/chrome-devtools-protocol-jvm</url>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <url>http://35.198.52.232:70/repository/nexus-snapshots/</url>
+        </snapshotRepository>
+        <repository>
+            <id>nexus-releases</id>
+            <url>http://35.198.52.232:70/repository/nexus-releases/</url>
+        </repository>
+    </distributionManagement>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>23.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.141.59</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-server</artifactId>
+            <version>3.141.59</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-firefox-driver</artifactId>
+            <version>3.141.59</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-remote-driver</artifactId>
+            <version>3.141.59</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-chrome-driver</artifactId>
+            <version>3.141.59</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-api</artifactId>
+            <version>3.141.59</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.appium</groupId>
+            <artifactId>java-client</artifactId>
+            <version>6.1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-core</artifactId>
+            <version>1.2.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-jvm</artifactId>
+            <version>1.2.5</version>
+            <type>pom</type>
+        </dependency>
+
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>1.2.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-picocontainer</artifactId>
+            <version>1.2.5</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>1.2.5</version>
+            <scope>test</scope>
+        </dependency>
+
+
+        <dependency>
+            <groupId>net.masterthought</groupId>
+            <artifactId>cucumber-reporting</artifactId>
+            <version>3.9.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.vimalselvam</groupId>
+            <artifactId>cucumber-extentsreport</artifactId>
+            <version>3.0.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>3.1.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-math3</artifactId>
+            <version>3.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20180813</version>
+        </dependency>
+
+    </dependencies>
+
+    <scm>
+        <connection>scm:git:git://github.com/pgtoopx/chrome-devtools-protocol-jvm.git</connection>
+        <developerConnection>scm:git:git@github.com:pgtoopx/chrome-devtools-protol.jvm.git</developerConnection>
+        <url>https://github.com/pgtoopx/chrome-devtools-protocol-jvm</url>
+        <tag>chrome-devtools-protocol-jvm-0.1</tag>
+    </scm>
+</project>
