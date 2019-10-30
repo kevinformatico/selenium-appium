@@ -16,23 +16,29 @@ import java.util.Date;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/java/features", 
 				     glue = "definitions",
-				     plugin = { "pretty", "json:target/cucumber-report/cucumber.json", "junit:target/cucumber.xml", "com.cucumber.listener.ExtentCucumberFormatter:"})
+                     tags = {"not @todo"},
+				     plugin = { "pretty", "json:target/cucumber-report/cucumber.json", "junit:target/cucumber.xml", " html:target/cucumber-report"})
 
+                        //com.cucumber.listener.ExtentCucumberFormatter:
 public class Running {
 	
 	public static SimpleDateFormat sdf;
     
     @AfterClass
     public static void setup() {
+
+        /*
     	//Carga la config del xml
         System.out.println("CARGA CONFIGURACIÓN DEL XML");
         Reporter.loadXMLConfig(new File("./src/test/java/config/extent-config.xml"));
 
         // Detalle características     
-        Reporter.setSystemInfo("Nombre Proyecto","BCI Automation");
+        Reporter.setSystemInfo("Nombre Proyecto","Falabella-automatizacion");
         Reporter.setSystemInfo("Zona Horaria", System.getProperty("user.timezone"));
         Reporter.setSystemInfo("Ubicacion Usuario", System.getProperty("user.country"));
         Reporter.setSystemInfo("Nombre SO", System.getProperty("os.name"));
+
+         */
  
     }
     

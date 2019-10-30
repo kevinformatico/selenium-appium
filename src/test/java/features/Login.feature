@@ -1,4 +1,6 @@
 @Login
+#encoding:utf-8
+
 
 Feature: Iniciar Sesion
 
