@@ -1,7 +1,7 @@
 @Login
 Feature: Iniciar Sesion
 
-	@TestCaseKey=FAL-T1
+	@TestCaseKey=FAL-T2
 	Scenario Outline: Hacer Login
 		Given existen los campos
 		When ingreso usuario "<user>" y contraseña "<pass>"
