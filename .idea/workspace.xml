@@ -6,8 +6,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runnings/LoginRunning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runnings/LoginRunning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runnings/Running.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runnings/Running.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/proyecto_appium_falabella-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/proyecto_appium_falabella-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runnings/LoginRunning.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runnings/LoginRunning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runnings/Running.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runnings/Running.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

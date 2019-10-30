@@ -4,7 +4,7 @@ pipeline {
 
         stage('No impacto') {
             steps {
-                sh 'mvn clean install'
+                bat 'mvn clean install'
             }
         }
     }
