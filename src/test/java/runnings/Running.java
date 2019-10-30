@@ -17,13 +17,13 @@ import java.util.Date;
 @CucumberOptions(features = "src/test/java/features", 
 				     glue = "definitions",
                      tags = {"not @todo"},
-				     plugin = { "pretty", "json:target/cucumber-report/cucumber.json", "junit:target/cucumber.xml", " html:target/cucumber-report"})
+				     plugin = { "pretty", "json:target/cucumber-report/cucumber.json", "junit:target/cucumber.xml", " com.cucumber.listener.ExtentCucumberFormatter:"})
 
                         //com.cucumber.listener.ExtentCucumberFormatter:
 public class Running {
 	
 	public static SimpleDateFormat sdf;
-    /*
+
     @AfterClass
     public static void setup() {
 
@@ -50,5 +50,4 @@ public class Running {
     	extentProperties.setReportPath(System.getProperty("user.dir") + "/reportes/html" + 
     	"/Reporte_Automatizacion_" + sdf.format(new Date()) + ".html");
     }
-	*/
 }
