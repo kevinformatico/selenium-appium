@@ -23,11 +23,11 @@ import java.util.Date;
 public class Running {
 	
 	public static SimpleDateFormat sdf;
-    
+    /*
     @AfterClass
     public static void setup() {
 
-        /*
+
     	//Carga la config del xml
         System.out.println("CARGA CONFIGURACIÓN DEL XML");
         Reporter.loadXMLConfig(new File("./src/test/java/config/extent-config.xml"));
@@ -38,7 +38,7 @@ public class Running {
         Reporter.setSystemInfo("Ubicacion Usuario", System.getProperty("user.country"));
         Reporter.setSystemInfo("Nombre SO", System.getProperty("os.name"));
 
-         */
+
  
     }
     
@@ -50,5 +50,5 @@ public class Running {
     	extentProperties.setReportPath(System.getProperty("user.dir") + "/reportes/html" + 
     	"/Reporte_Automatizacion_" + sdf.format(new Date()) + ".html");
     }
-	
+	*/
 }
