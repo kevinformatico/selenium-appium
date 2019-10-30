@@ -1,0 +1,8 @@
+pages\BasePage.class
+driver\DriverFactory.class
+runnings\Running.class
+pages\LoginPage.class
+definitions\LoginDef.class
+driver\Emulator.class
+driver\Device.class
+runnings\LoginRunning.class
