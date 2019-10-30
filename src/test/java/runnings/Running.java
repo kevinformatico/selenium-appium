@@ -16,7 +16,7 @@ import java.util.Date;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/java/features", 
 				     glue = "definitions",
-				     plugin = { "pretty", "html:target/cucumber", "json:target/cucumber.json", "com.cucumber.listener.ExtentCucumberFormatter:"})
+				     plugin = { "pretty", "json:target/cucumber-report/cucumber.json", "junit:target/cucumber.xml", "com.cucumber.listener.ExtentCucumberFormatter:"})
 
 public class Running {
 	
